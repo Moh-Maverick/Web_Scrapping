@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
+
 
 url = "https://stackoverflow.com/questions/tagged/python"
 headers = {
@@ -20,7 +22,14 @@ for div in question_divs:
     title_link = div.find('a', class_='s-link')
     if title_link:
         title = title_link.text.strip()
-        questions.append(title)
+        description_div = div.find('div', class_='s-post-summary--content-excerpt')
+        description = description_div.text.strip() if description_div else ''
+        questions.append({'title': title, 'description': description})
 
-for question in questions:
-    print(question)
+filename = "qustions.csv"
+with open(filename, mode='w', newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Question Title", "Description"])
+    for question in questions:
+        writer.writerow([question['title'], question['description']])
+print(f"Questions have been saved to {filename}")
