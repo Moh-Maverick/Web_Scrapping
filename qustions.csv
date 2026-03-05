@@ -1,0 +1,48 @@
+Question Title,Description
+correlation analysis between features and target variables in survival analysis,"I am working with survival analysis methods benchmark and in my repository, there are around 43 datasets. Both numerical and categorical covariates are present in these datasets.
+In some datasets, ..."
+Calling C++ DLL API is not success - how to resolve the issue,"I have a C++ DLL and using dumpbin tool to get one of the APIs names in it:
+ordinal hint RVA       name
+
+56         3D 00005BB0 GetUserPass
+
+I have access to code header file and the I am in need to ..."
+I am stuck at this error - Error Loading the Langachain pipeline 'field set',"I am stuck at this error - Error Loading the Langachain pipeline 'field set'.
+How can i resolve this error?
+Below i have mention my code ,
+import os
+from langchain_community.vectorstores import FAISS
+..."
+Automatic Data Sending,"I am working on a project that uses python. It is a mmWave board that is used to collect vital sign data. I am creating logs of the vital sign data and it saves as an excel sheet.
+How to automatically ..."
+Copying a list using [:}. and trying to make everything in the new list lower case using lower() [duplicate],"I thought this should work. The goal is to copy the list using [:] and then converting all the items in the list to lowercase. There are probably a lot of ways to do this, but is there a way to make ..."
+"count special characters, re.findall vs loop","I am trying to understand the performance of re.findall . From ref 1 and 2, I believe the time complexity of the effective_len is O(n). And it is O(n) for effective_len2 too.
+However, my test result ..."
+"Python gcode simulation (x,y,z vs time)","I would like to simulate a CNC operation to get plots for x/t,y/t and z/t, specifically to get the expected acceleration. However, it looks like pyGCodeDecode only works with 3D printers, while I'd be ..."
+Why does this assignment fail but not cause an error?,"In this python I expect either for x to be assigned to 1, OR for an error/exception to be raised. Instead, nothing happens. The statement is not an error but it also has no effect.
+x = 0
+[x][0] = 1
+
+..."
+Automatically fail all tests that write to stdout or stderr [duplicate],"Using pytest, I can make a single unit test fail if the body of the test wrote anything to stdout or stderr with something like:
+import pytest
+def test_no_stray_output(capsys: pytest.CaptureFixture[..."
+Python 3.10+ equivalent to `distutils` package,"I am using Python 3.12 and want to setup the ttpy package version 1.2.1.  If I run the pip install ttpy==1.2.1 command, I get an error ModuleNotFoundError: No module named 'numpy.distutils' because ..."
+"Azure Functions (Python): after deploying from local, app still runs old code (seems cached)","I’m deploying an Azure Function App written in Python from my local machine. This used to work fine: after publishing, I could see the updated code in the Azure Portal and the function execution ..."
+Why I am unable to close the A Tkinter frame and create another one?,"I made this tkinter app:
+import os
+import tkinter as tk
+from tkinter import ttk
+
+class SelectBodyScreen(ttk.Frame):
+
+    def __init__(self,root, lang, prod_text,test_text, on_next):
+        super()...."
+Ubuntu 24.04 - HID works only with sudo despite udev rule [closed],"INFO:
+Linux Ubuntu 24.04.4 LTS
+Python - lib: hid
+SteelSeries Nova 5
+I made a program that communicates with my headphones through HID, but I can only run it with sudo. I tried changing the device ..."
+Which Python GUI frameworks expose native Windows UI Automation properties correctly?,"I am developing a Windows desktop GUI application in Python and need proper compatibility with screen readers such as NVDA and JAWS.
+My main requirement is correct exposure of Microsoft UI Automation (..."
+What is the actual difference in using composition versus inheritance?,"I am trying to learn inheritance versus composition the hard way. So far, I have understood that composition involves using object reference inside a class. So I asked myself, why did not we choose to ..."

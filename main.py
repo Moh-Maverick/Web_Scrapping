@@ -33,3 +33,12 @@ with open(filename, mode='w', newline='', encoding='utf-8') as file:
     for question in questions:
         writer.writerow([question['title'], question['description']])
 print(f"Questions have been saved to {filename}")
+
+
+from send_email import send_csv_email
+
+sender_email =  "cursormohit23@gmail.com"
+sender_password = "mhrh jehm tjql cgck"     
+recipient_email = "mohit.radkrishnan@gmail.com"     
+
+send_csv_email(filename, sender_email, sender_password, recipient_email)
